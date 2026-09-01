@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Base URL for the Express backend
 // In a real app, this would be an environment variable, e.g., import.meta.env.VITE_API_URL
-const BASE_URL = 'http://localhost:8000/api';
+const BASE_URL = 'https://sih-backend-964e.onrender.com/api';
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
